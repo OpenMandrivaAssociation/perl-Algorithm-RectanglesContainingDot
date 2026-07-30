@@ -43,15 +43,3 @@ perl Makefile.PL INSTALLDIRS=vendor
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
 
-%changelog
-* Sat Apr 16 2011 Funda Wang <fwang@mandriva.org> 0.20.0-2mdv2011.0
-+ Revision: 653386
-- rebuild for updated spec-helper
-
-* Tue Sep 15 2009 Jérôme Quelin <jquelin@mandriva.org> 0.20.0-1mdv2011.0
-+ Revision: 442852
-- import perl-Algorithm-RectanglesContainingDot
-
-
-* Tue Sep 15 2009 cpan2dist 0.02-1mdv
-- initial mdv release, generated with cpan2dist
