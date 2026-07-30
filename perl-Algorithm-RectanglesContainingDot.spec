@@ -3,13 +3,13 @@
 
 Name:		perl-%{upstream_name}
 Version:	%{upstream_version}
-Release:	6
+Release:	1
 
 Summary:	Find rectangles containing a given dot
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/dist/Algorithm-RectanglesContainingDot
-Source0:	https://cpan.metacpan.org/authors/id/S/SA/SALVA/Algorithm-RectanglesContainingDot-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/S/SA/SALVA/Algorithm-RectanglesContainingDot-0.02.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
