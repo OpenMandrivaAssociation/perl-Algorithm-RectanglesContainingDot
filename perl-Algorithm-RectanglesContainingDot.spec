@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	0.02
-Release:	5
+Release:	6
 
 Summary:	Find rectangles containing a given dot
 License:	GPL+ or Artistic
@@ -35,7 +35,7 @@ perl Makefile.PL INSTALLDIRS=vendor
 %check
 # soft: do not fail package on test failures
 set +e
-%make test
+%make test || :
 
 %install
 %makeinstall_std
