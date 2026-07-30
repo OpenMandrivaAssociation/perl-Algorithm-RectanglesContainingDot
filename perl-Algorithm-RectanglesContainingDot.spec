@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	0.02
-Release:	4
+Release:	5
 
 Summary:	Find rectangles containing a given dot
 License:	GPL+ or Artistic
